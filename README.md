@@ -20,3 +20,14 @@ The interface is designed to present a clear output with minimal interpretation 
 
 ## Connection to Chapter 7
 This idea represents the creative phase of analytics innovation. A decision-making problem has been identified, a solution has been proposed, and the required data inputs have been outlined. However, the tool has not yet been prototyped or presented to decision makers. The idea exists as a documented concept, which aligns with the role of the creative phase described in Chapter 7.
+
+## Prototype Evaluation
+
+**Should the prototype enhancement be integrated into the main project?**
+Adding opponent defensive intensity to the risk model addresses a real gap: the baseline treats a game against the league's most physical team the same as a game against its least physical team. That is a meaningful blind spot. However, SportVU tracking data requires a licensing agreement and the scoring weights would need to be recalibrated before the new input is live. The enhancement is worth pursuing but needs those two steps completed before it replaces the current model.
+
+**What feedback from decision makers would influence this decision?**
+- Coaching staff input: Coaches who already factor in opponent physicality when making rest decisions manually would find this feature useful since it puts a number behind a judgment call they are already making.
+- Team physician review: The medical staff's injury log would confirm or challenge the core assumption. If soft-tissue injuries have spiked after games against high-foul, high-contact opponents, that is direct evidence the enhancement is worth integrating.
+- Data availability check: The team either has a SportVU license or it does not. If not, the annual cost needs to fit the analytics budget before the enhancement can move forward.
+- Pilot testing: Running the baseline model and the enhanced model side by side for half a season and tracking how often each one correctly flagged a player who was later injured would provide the clearest evidence for or against full adoption.
