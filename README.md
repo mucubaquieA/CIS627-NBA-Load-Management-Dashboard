@@ -8,10 +8,10 @@ NBA teams regularly face a tradeoff between performance and player health. Playi
 
 ## Proposed Analytics Approach
 The tool would draw on multiple data sources:
-- Game log data — minutes played and workload trends  
-- Schedule data — days of rest, back-to-back games, and travel  
-- Injury history — player-specific patterns and recovery timelines  
-- Context variables — recent usage intensity and role  
+- Game log data: minutes played and workload trends  
+- Schedule data: days of rest, back-to-back games, and travel  
+- Injury history: player-specific patterns and recovery timelines  
+- Context variables:  recent usage intensity and role  
 The analysis would use a simple risk scoring approach that combines these inputs into a single risk indicator. The focus is on transparency and interpretability rather than complex modeling, allowing decision makers to understand and trust the output.
 
 ## Use by Decision Makers
