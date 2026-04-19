@@ -20,3 +20,11 @@ The interface is designed to present a clear output with minimal interpretation 
 
 ## Connection to Chapter 7
 This idea represents the creative phase of analytics innovation. A decision-making problem has been identified, a solution has been proposed, and the required data inputs have been outlined. However, the tool has not yet been prototyped or presented to decision makers. The idea exists as a documented concept, which aligns with the role of the creative phase described in Chapter 7.
+
+## Prototype Enhancement
+
+**What is being changed:**
+The original dashboard only looks at factors like rest days and minutes played to calculate a player's risk score. The prototype adds one more input: how physical the upcoming opponent tends to play. For example, a player facing a team known for aggressive defense with lots of fouls, hard contests and physical contact is at greater injury risk than someone facing a more passive team, even if both players had the same amount of rest. Right now the dashboard treats those two situations the same. This enhancement fixes that.
+
+**Why this change could improve decision-making:**
+Game intensity is a stronger predictor of in-game injuries than fatigue alone. A player with three days of rest going up against a team that averages 28 fouls per game and leads the league in physical contact is at higher injury risk than the rest days alone would suggest. Adding opponent defensive intensity to the risk score catches those situations before they result in missed games. Coaches get a tool that factors in what tonight's game will actually demand, not just how tired a player's legs are.
