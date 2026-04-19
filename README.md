@@ -28,3 +28,13 @@ The original dashboard only looks at factors like rest days and minutes played t
 
 **Why this change could improve decision-making:**
 Game intensity is a stronger predictor of in-game injuries than fatigue alone. A player with three days of rest going up against a team that averages 28 fouls per game and leads the league in physical contact is at higher injury risk than the rest days alone would suggest. Adding opponent defensive intensity to the risk score catches those situations before they result in missed games. Coaches get a tool that factors in what tonight's game will actually demand, not just how tired a player's legs are.
+## Prototype Evaluation
+
+**Should the prototype enhancement be integrated into the main project?**
+Adding opponent defensive intensity to the risk model addresses a real gap: the baseline treats a game against the league's most physical team the same as a game against its least physical team. That is a meaningful blind spot. However, SportVU tracking data requires a licensing agreement and the scoring weights would need to be recalibrated before the new input is live. The enhancement is worth pursuing but needs those two steps completed before it replaces the current model.
+
+**What feedback from decision makers would influence this decision?**
+- Coaching staff input: Coaches who already factor in opponent physicality when making rest decisions manually would find this feature useful since it puts a number behind a judgment call they are already making.
+- Team physician review: The medical staff's injury log would confirm or challenge the core assumption. If soft-tissue injuries have spiked after games against high-foul, high-contact opponents, that is direct evidence the enhancement is worth integrating.
+- Data availability check: The team either has a SportVU license or it does not. If not, the annual cost needs to fit the analytics budget before the enhancement can move forward.
+- Pilot testing: Running the baseline model and the enhanced model side by side for half a season and tracking how often each one correctly flagged a player who was later injured would provide the clearest evidence for or against full adoption.
