@@ -1,2 +1,2 @@
-# CIS627-Bullpen-Risk-Dashboard-
-Sports Analytics Project on bullpen risk dashboard to support game-day pitching decision.
+# CIS627-NBA-Load-Management-Dashboard-
+Sports Analytics Project focused on player load management and injury risk to support NBA game-day decision making.
